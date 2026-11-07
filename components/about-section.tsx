@@ -20,17 +20,16 @@ export function AboutSection() {
 
         <div className="max-w-xl">
           <h2 id="about-heading" className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
-            About Us
+            Who we are
           </h2>
           <p className="mb-4 text-base leading-relaxed sm:text-lg">
-            We believe every great idea deserves a little imagination, a lot of curiosity, and a
-            team that knows how to make things happen. At Fake Consulting, we turn ambitious
-            questions into thoughtful possibilities.
+            Here at Fake Consulting, Lorum ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt, nunc nisl aliquam nunc, eget aliquam nisl nunc vel nisl. Sed euismod, nisl vel tincidunt, nunc nisl aliquam nunc, eget aliquam nisl nunc vel nisl.
+          </p>
+          <p className="mb-4 text-base leading-relaxed sm:text-lg italic">
+            We care about your business.
           </p>
           <p className="text-base leading-relaxed sm:text-lg">
-            From the first conversation to the final details, we bring fresh perspectives and
-            practical thinking to every challenge. We are here to help you see what is possible—and
-            make the journey worthwhile.
+            Voted #1 in customer satisfaction by Big Consulting Magazine, lorum ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt, nunc nisl aliquam nunc, eget aliquam nisl nunc vel nisl. Sed euismod, nisl vel tincidunt, nunc nisl aliquam nunc, eget aliquam nisl nunc vel nisl.
           </p>
         </div>
       </div>

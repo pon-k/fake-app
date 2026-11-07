@@ -19,7 +19,7 @@ export function SiteBanner() {
         </h1>
         <Button
           type="button"
-          className="mt-2 h-16 border border-yellow-50 px-5 text-2xl opacity-100"
+          className="mt-2 h-16 border border-yellow-50 px-5 text-2xl hover:bg-yellow-50 hover:text-black focus:outline-none"
         >
           MEET WITH US
         </Button>
