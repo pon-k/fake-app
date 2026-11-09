@@ -13,7 +13,7 @@ export function AboutSection() {
             alt="Colleagues meeting around a table"
             width={1333}
             height={2000}
-            className="h-[40svh] min-h-64 w-full rounded-xl object-cover object-center shadow-sm md:h-[54svh]"
+            className="h-[40svh] min-h-64 w-full rounded-xl object-cover object-center shadow-sm transition-[transform,box-shadow] duration-1000 ease-in-out hover:scale-[1.01] hover:shadow-xl motion-reduce:transition-none md:h-[54svh]"
             sizes="(max-width: 767px) 100vw, 40vw"
           />
         </div>

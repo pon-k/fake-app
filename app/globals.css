@@ -127,3 +127,40 @@
     @apply font-mono;
     }
 }
+
+@keyframes testimonial-enter-next {
+    from {
+      opacity: 0;
+      transform: translateX(1.5rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+@keyframes testimonial-enter-previous {
+    from {
+      opacity: 0;
+      transform: translateX(-1.5rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+.testimonial-enter-next {
+    animation: testimonial-enter-next 500ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.testimonial-enter-previous {
+    animation: testimonial-enter-previous 500ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .testimonial-enter-next,
+    .testimonial-enter-previous {
+      animation: none;
+    }
+}
